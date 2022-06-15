@@ -20,7 +20,7 @@ REM 	Pushing to the current directory ( which is the .jar file-path )
 
 REM 	Executing .jar file with jre1.8.0_181 (you SHOULD replace the jre fullpath with yours) 
 
-"C:\Program Files\Java\jre1.8.0_181\bin\java.exe" -jar selenium-server-4.0.0.jar standalone --override-max-sessions true --max-sessions 20 --session-timeout 1800
+"C:\Program Files (x86)\Java\jre1.8.0_333\bin\java.exe" -jar selenium-server-4.2.2.jar standalone --override-max-sessions true --max-sessions 20 --session-timeout 1800 --allow-cors true
 
 
 PAUSE
